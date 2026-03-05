@@ -15,3 +15,34 @@ document.querySelectorAll('.nav-links li a').forEach(link => {
         navLinks.classList.remove('nav-active');
     });
 });
+const education = document.getElementById("education");
+
+education.addEventListener("change", function(){
+
+document.getElementById("schoolClass").style.display="none";
+document.getElementById("interClass").style.display="none";
+document.getElementById("gradSubject").style.display="none";
+document.getElementById("masterSubject").style.display="none";
+document.getElementById("otherField").style.display="none";
+
+if(this.value==="school"){
+document.getElementById("schoolClass").style.display="block";
+}
+
+if(this.value==="inter"){
+document.getElementById("interClass").style.display="block";
+}
+
+if(this.value==="graduation"){
+document.getElementById("gradSubject").style.display="block";
+}
+
+if(this.value==="masters"){
+document.getElementById("masterSubject").style.display="block";
+}
+
+if(this.value==="other"){
+document.getElementById("otherField").style.display="block";
+}
+
+});
