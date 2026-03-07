@@ -177,11 +177,11 @@ font-weight:600;
 .btn-primary:hover{
 background:#e85d00;
 }
+
 .footer{
-background:var(--bg-color);
-color:var(--text-color);
+background:#0f0f0f;
+color:#fff;
 padding:40px 20px 10px;
-border-top:1px solid rgba(255,255,255,0.1);
 }
 
 .footer-container{
@@ -197,7 +197,7 @@ margin-bottom:20px;
 }
 
 .footer-section h3{
-color:var(--primary-color);
+color:#ff7a00;
 margin-bottom:10px;
 }
 
@@ -207,17 +207,18 @@ margin-bottom:10px;
 
 .footer-section p{
 margin:5px 0;
-opacity:0.8;
+color:#ccc;
 }
 
 .footer-bottom{
 text-align:center;
 margin-top:20px;
-border-top:1px solid rgba(255,255,255,0.2);
+border-top:1px solid #333;
 padding-top:10px;
 font-size:14px;
-opacity:0.7;
+color:#aaa;
 }
+
 .map-container{
 max-width:1000px;
 margin:auto;
