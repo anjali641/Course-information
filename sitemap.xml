@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -11,18 +10,4 @@
 <loc>https://anjali641.github.io/Course-information/curriculum.html</loc>
 </url>
 
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-<url>
-<loc>https://anjali641.github.io/Course-information/</loc>
-</url>
-
-<url>
-<loc>https://anjali641.github.io/Course-information/curriculum.html</loc>
-</url>
-
->>>>>>> 4586a59f31a25bc0c7d0bb42ce26cfd6a4830549
 </urlset>
