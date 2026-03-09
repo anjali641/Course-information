@@ -1,23 +1,17 @@
-.curriculum-grid{
-
-display:grid;
-
-grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-
-gap:30px;
-
+.curriculum-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
 }
 
-.curriculum-card{
-
-background:var(--glass);
-
-border:1px solid var(--border-glow);
-
-border-radius:20px;
-
-padding:24px;
-
+.curriculum-card {
+    background: var(--card-bg);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    position: relative;
 }
 
 .curriculum-card:hover {
@@ -76,26 +70,20 @@ padding:24px;
     margin-top: 40px;
 }
 
-.faculty-card{
-
-background:var(--glass);
-
-border-radius:20px;
-
-border:1px solid var(--border-glow);
-
-overflow:hidden;
-
-transition:.4s;
-
+.faculty-card {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background: var(--card-bg);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    flex: 1;
 }
 
-.faculty-card:hover{
-
-transform:translateY(-8px);
-
-box-shadow:var(--shadow-glow);
-
+.faculty-card:hover {
+    transform: translateY(-5px);
 }
 
 .faculty-card img {
