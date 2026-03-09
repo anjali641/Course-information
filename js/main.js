@@ -17,6 +17,8 @@ document.querySelectorAll('.nav-links li a').forEach(link => {
 });
 const education = document.getElementById("education");
 
+if (education) {
+
 education.addEventListener("change", function(){
 
 document.getElementById("schoolClass").style.display="none";
@@ -46,3 +48,4 @@ document.getElementById("otherField").style.display="block";
 }
 
 });
+}
