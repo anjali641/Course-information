@@ -1,11 +1,13 @@
-.navbar{
-
-background:rgba(10,10,12,0.6);
-
-backdrop-filter:blur(12px);
-
-border-bottom:1px solid rgba(255,170,60,0.2);
-
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: var(--nav-bg);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: var(--shadow);
 }
 
 .logo {
